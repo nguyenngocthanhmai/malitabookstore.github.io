@@ -355,161 +355,174 @@ color: #606094;
 }
 /* footer */
 .page-footer{
-margin-top:90px;
-background-color: #F7F5F2;
+    margin-top: 90px;
+    background-color: #F7F5F2;
 }
 .footer-contents{
-display: flex;
-justify-content: space-around;
-align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .footer-row{
-margin-top: 20px;
-padding: 20px 0px;
-width: fit-content
+    margin-top: 20px;
+    padding: 20px 0px;
+    width: fit-content
 }
 .footer-row .display{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .multi-media iframe{
-margin: 10px 0px;
+    margin: 10px 0px;
 }
 
 .Malita .logo-img{
-width: 80px;
-height: auto;
+    width: 80px;
+    height: auto;
 }
 
 .Malta .logo-text{
-font-size: 50px;
+    font-size: 50px;
 }
 
 .Malita .style{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Malita .style .info{
-font-size: 18px;
+    font-size: 18px;
 }
 
 .Malita .style .image-icon{
-width: 20px;
-height: 20px;
-padding: 16px 20px 0px 0px ;
+    width: 20px;
+    height: 20px;
+    padding: 16px 20px 0px 0px ;
 }
 
 .Malita .email a{
-text-decoration: none;
-margin: 16px 0px;
-margin-left: 10px;
-width: 378.06px;
-color: #0F1021;
-font-size: 18px;
+    text-decoration: none;
+    margin: 16px 0px;
+    margin-left: 10px;
+    width: 378.06px;
+    color: #0F1021;
+    font-size: 18px;
 }
 
 .Malita .phone-no {
-width: 378.06px;
+    width: 378.06px;
 }
 
 .social{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .social .social-img{
-width: 50px;
-height: auto;
-margin-left: 20px;
-transition: transform 0.8s;
-box-shadow: 10px 10px 2px #F7F5F2;
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+    transition: transform 0.8s;
+    box-shadow: 10px 10px 2px #F7F5F2;
 }
 .social .social-img:hover{
-transform: scale3d(0.5, 1, 1.7);
+    transform: scale3d(0.5, 1, 1.7);
 }
 
 .title{
-font-size: 30px;
-color: #0F1021;
-font-weight: bold;
-margin: 0;
-padding: 0;
+    font-size: 30px;
+    color: #0F1021;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 .footer-underline{
-width: 100px;
-height: 5px;
-background-color: #8D8DAA;
+    width: 100px;
+    height: 2px;
+    background-color: #8D8DAA;
 }
 
 .list ul li{
-list-style: none;
-padding: 10px 0px;
+    list-style: none;
+    padding: 10px 0px;
 }
+
+.list ul li:hover{
+    transform: scale(1.1);
+}
+
 .list ul li a{
-text-decoration: none;
+    text-decoration: none;
 }
 .list ul li a span{
-color: #0F1021;
-font-size: 18px;
+    color: #0F1021;
+    font-size: 18px;
+    align-items: center;
 }
+.list ul li a span:hover{
+    color: #606094;
+    font-weight: bold;
+}
+
 .support{
-color: #0F1021;
-font-size: 18px;
+    color: #0F1021;
+    font-size: 18px;
 }
 
 .service-container{
-padding: 20px 80px;
-display: flex; 
-flex-direction: row;
-justify-content: center;
-width: fit-content;
-margin-left: 400px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .available-services{
-display: flex;
-justify-content: flex-end;
-align-items: space-around;
-padding: 20px 10px; 
-margin: 20px 10px;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-around;
+    /* padding: 20px 10px; 
+    margin: 20px 10px;   */
 }
 
 .delivery-img img{
-height: 80px;
-object-fit: cover;
+    height: 70px;
+    width: 180px;
+    object-fit: cover;
 }
 
 .momo img{
-height: 80px;
+    height: 70px;
 }
 
 .vnpay img{
-height: 80px;
+    height: 70px;
+    width: 120px;
 }
 
 .visa img{
-height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .master img{
-height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .footer-line{
-width: 450px;
-height: 5px;
-background-color:  #8D8DAA;
+    width: 300px;
+    height: 3px;
+    background-color:  #8D8DAA;
 
 }
 .copy{
-text-align: center;
-font-size: 25px;
-font-weight: bold;
-color: #8D8DAA;
+    text-align: center;
+    font-size: 20px;
+    color: #8D8DAA;
+    margin-bottom: 20px;
 }
+
 
 @media screen and (max-width: 1680px){
     /* Footer responsive*/

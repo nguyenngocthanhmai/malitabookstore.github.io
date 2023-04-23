@@ -503,9 +503,10 @@ header {
     font-size: 25px;
     margin: 10px 0px;
 }
+
 /* footer */
 .page-footer{
-    margin-top:90px;
+    margin-top: 90px;
     background-color: #F7F5F2;
 }
 .footer-contents{
@@ -522,7 +523,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 50px;
 }
 
 .multi-media iframe{
@@ -590,7 +590,7 @@ header {
 }
 .footer-underline{
     width: 100px;
-    height: 5px;
+    height: 2px;
     background-color: #8D8DAA;
 }
 
@@ -598,13 +598,24 @@ header {
     list-style: none;
     padding: 10px 0px;
 }
+
+.list ul li:hover{
+    transform: scale(1.1);
+}
+
 .list ul li a{
     text-decoration: none;
 }
 .list ul li a span{
     color: #0F1021;
     font-size: 18px;
+    align-items: center;
 }
+.list ul li a span:hover{
+    color: #606094;
+    font-weight: bold;
+}
+
 .support{
     color: #0F1021;
     font-size: 18px;
@@ -612,53 +623,55 @@ header {
 
 .service-container{
     padding: 20px 80px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    width: fit-content;
-    margin-left: 400px;
 }
 
 .available-services{
     display: flex;
     justify-content: flex-end;
     align-items: space-around;
-    padding: 20px 10px; 
-    margin: 20px 10px;  
+    /* padding: 20px 10px; 
+    margin: 20px 10px;   */
 }
 
 .delivery-img img{
-    height: 80px;
+    height: 70px;
+    width: 180px;
     object-fit: cover;
 }
 
 .momo img{
-    height: 80px;
+    height: 70px;
 }
 
 .vnpay img{
-    height: 80px;
+    height: 70px;
+    width: 120px;
 }
 
 .visa img{
-    height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .master img{
-    height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .footer-line{
-    width: 450px;
-    height: 5px;
+    width: 300px;
+    height: 3px;
     background-color:  #8D8DAA;
 
 }
 .copy{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
     color: #8D8DAA;
+    margin-bottom: 20px;
 }
 
 
@@ -708,9 +721,6 @@ header {
     }
     .genre-container .category{
         height: 100%;
-    }
-    .book-type{
-        display: ;
     }
        /* Footer responsive*/
        .multi-media{
