@@ -172,6 +172,8 @@ header {
 
 }
 .shopping-icon {
+    display: flex;
+    align-items: center;
     margin-right: 100px;
     margin-top: 10px;
 }
@@ -519,7 +521,6 @@ header {
     margin: 20px 20px;
     position: relative;
     border-radius: 20px;
-    height: 550px;
 }
 
 .detail-btn{
@@ -596,6 +597,26 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 }
+.special_genres_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.special_genres_box .img{
+    padding: 0px;
+    width: 200px;
+    height: 300px;
+    margin: 0px 75px;
+}
+.special_genres_box .img a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+}
+
 
 /* footer */
 .page-footer{
@@ -616,7 +637,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 50px;
 }
 
 .multi-media iframe{
@@ -684,22 +704,32 @@ header {
 }
 .footer-underline{
     width: 100px;
-    height: 5px;
+    height: 2px;
     background-color: #8D8DAA;
 }
 
 .list ul li{
     list-style: none;
     padding: 10px 0px;
-    /* margin: 20px 0px; */
 }
+
+.list ul li:hover{
+    transform: scale(1.1);
+}
+
 .list ul li a{
     text-decoration: none;
 }
 .list ul li a span{
     color: #0F1021;
     font-size: 18px;
+    align-items: center;
 }
+.list ul li a span:hover{
+    color: #606094;
+    font-weight: bold;
+}
+
 .support{
     color: #0F1021;
     font-size: 18px;
@@ -710,50 +740,52 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: fit-content;
-    margin-left: 400px;
 }
 
 .available-services{
     display: flex;
     justify-content: flex-end;
     align-items: space-around;
-    padding: 20px 10px; 
-    margin: 20px 10px;  
+    /* padding: 20px 10px; 
+    margin: 20px 10px;   */
 }
 
 .delivery-img img{
-    height: 80px;
+    height: 70px;
+    width: 180px;
     object-fit: cover;
 }
 
 .momo img{
-    height: 80px;
+    height: 70px;
 }
 
 .vnpay img{
-    height: 80px;
+    height: 70px;
+    width: 120px;
 }
 
 .visa img{
-    height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .master img{
-    height: 100px;
+    height: 110px;
+    margin-top: -20px
 }
 
 .footer-line{
-    width: 450px;
-    height: 5px;
+    width: 300px;
+    height: 3px;
     background-color:  #8D8DAA;
 
 }
 .copy{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
     color: #8D8DAA;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1290px) {
@@ -854,7 +886,7 @@ header {
         flex-direction: column;
         align-items: flex-end ;
         justify-content: center;
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         margin-top: -19px;
         border-radius: 10px ;
