@@ -232,6 +232,7 @@ color: #606094;
 .contact_us_information{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .contact_us_information{
@@ -242,13 +243,12 @@ color: #606094;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
     border: 3px solid #F7F5F2;
     padding: 0px 40px;
     border-radius: 20px;
 }
 .contact_header{
-    font-size: 60px;
+    font-size: 45px;
     margin: 50px 0 0 0px;
 }
 .purple_underline{
@@ -269,7 +269,7 @@ color: #606094;
     height: 40px;
 }
 .detail_info{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
@@ -306,37 +306,34 @@ color: #606094;
 #name, #email, #phone, #note{
     width: 50%;
     margin-left: 100px;
-    padding: 20px;
+    padding: 10px 10px 10px 20px; 
     border-radius: 20px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #0F1021;
-    font-weight: 900px;
     border: none;
 }
 .option_line{
     display: flex;
     align-items: center;
     border-radius: 20px ;
-    padding: 20px;
     margin: 20px 0px;
+    padding: 10px 0px;
     border: 2px solid #F7F5F2;
 }
 .option_line p{
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px 20px;
-    font-weight: 900px;
 }
-
 .contact_button{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .click_button{
-    padding: 20px 30px;
-    margin: 30px 0px;
-    font-size: 35px;
+    padding: 15px 30px;
+    margin: 25px 0px;
+    font-size: 25px;
     font-weight: bold;
     border: 3px solid #606094;
     box-shadow: 3px 3px 3px #606094;
@@ -783,6 +780,7 @@ color: #606094;
     }
     #contact_purpose{
         margin-bottom: 20px;
+        margin-left: 50px;
     }
     #name, #email, #phone, #note{
         width: 50%;

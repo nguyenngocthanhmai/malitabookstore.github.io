@@ -137,28 +137,29 @@
                             <lable for="contact_purpose">
                                 <p class="serif">Contact Purpose:</p>
                             </lable>
-                            <select id="contact_purpose" name="purpose" required>I want to--
-                                <option value="">I want to sell books</option>
-                                <option value="">I want to buy books</option>
+                            <select id="contact_purpose" name="purpose">
+                                <option value="">--Please choose an option--</option>
+                                <option value="I want to sell books">I want to sell books</option>
+                                <option value="I want to buy books">I want to buy books</option>
                             </select>
                         </div>
                         <div class="input_line">
                             <lable for="name">
                                 <p class="serif">Name:</p>
                             </lable>
-                            <input id="name" name="name:" value="Enter your name" type="text">
+                            <input id="name" name="name:" value="" placeholder="Enter your name:" type="text">
                         </div>
                         <div class="input_line">
                             <lable for="email">
                                 <p class="serif">Email:</p>
                             </lable>
-                            <input id="email" name="email:" value="Enter your email" type="text">
+                            <input id="email" name="email:" value="" placeholder="Enter your email:" type="text">
                         </div>
                         <div class="input_line">
                             <lable for="phone" class="serif">
                                 <p class="serif">Phone:</p>
                             </lable>
-                            <input id="phone" name="phone:" value="Enter your phone" type="text">
+                            <input id="phone" name="phone:" value="" placeholder="Enter your phone:" type="text">
                         </div>
                         <div class="option_line">
                             <p class="serif">Contact Preference:</p>
@@ -186,7 +187,7 @@
                             <lable for="note">
                                 <p class="serif">Extra Note:</p>
                             </lable>
-                            <input id="note" name="extra note:" value="" type="text">
+                            <input id="note" name="extra note:" value="" placeholder="Enter if you have any notes" type="text">
                         </div>
 
                     </form>
