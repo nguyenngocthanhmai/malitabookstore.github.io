@@ -4,7 +4,16 @@ Semester: 2023A
 Assessment: Assignment 1
 Author: Nguyen Ngoc Thanh Mai 
 ID: s3978486
-Acknowledgement: (References)Acknowledge the resources that you use here. */
+Acknowledgement: https://www.w3schools.com/howto/howto_css_blurred_background.asp
+                     https://www.pinterest.com/
+                     https://www.goodreads.com/
+                     https://www.fahasa.com/foreigncategory.html
+                     https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=topnav_storetab_b
+                     https://www.barnesandnoble.com/
+                     https://unsplash.com/fr/s/photos/book
+                     https://colorhunt.co/palette/8d8daadfdfdef7f5f2f56d91
+                     https://colorhunt.co/palette/0f1021d01257fb90b7ffcee4
+                     https://www.flaticon.com/ */
 
 body {
 margin: 0;
@@ -32,7 +41,7 @@ position: absolute;
 .bg-image{
 position: absolute;
 width: 100%;
-height: 68%;
+height: 60%;
 background-image: url("../img/back-ground.jpg");
 
 /* Add the blur effect */
